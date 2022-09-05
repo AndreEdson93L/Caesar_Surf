@@ -1,0 +1,33 @@
+from turtle import *
+
+color('blue')
+for x in range(36):
+    left(10)
+    forward(10)
+
+# C = p. greek * Diameter
+# Diameter = C / p.greek
+
+diameter_value = 360 / 3.14
+
+left(90)
+forward(diameter_value)
+
+left(180)
+forward(diameter_value / 2)
+
+left(135)
+forward(diameter_value / 2)
+
+left(180)
+forward(diameter_value / 2)
+
+left(270)
+forward(diameter_value / 2)
+
+left(180)
+forward(diameter_value / 2)
+
+left(135)
+
+bye()
